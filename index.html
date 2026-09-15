@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#1f7a3d" />
+  <title>SRI Grocery Planner</title>
+  <link rel="manifest" href="manifest.json" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <img src="assets/logo/sri-grocery-planner-logo.png" alt="SRI Grocery Planner" class="logo" />
+    <div>
+      <h1>SRI Grocery Planner</h1>
+      <p>Plan Better • Shop Smarter • Happier Home</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <input id="searchInput" type="search" placeholder="Search groceries..." />
+      <select id="categoryFilter">
+        <option value="all">All Categories</option>
+      </select>
+    </section>
+
+    <section id="groceryList" class="grocery-grid"></section>
+
+    <section class="summary">
+      <strong>Selected Items: <span id="selectedCount">0</span></strong>
+      <div class="actions">
+        <button id="clearBtn" class="secondary">Clear</button>
+        <button id="pdfBtn" class="primary">Generate PDF</button>
+      </div>
+    </section>
+  </main>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>

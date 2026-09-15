@@ -1,0 +1,17 @@
+{
+  "name": "SRI Grocery Planner",
+  "short_name": "SRI Grocery",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f7fbf5",
+  "theme_color": "#1f7a3d",
+  "description": "Tamil and English grocery list planner.",
+  "icons": [
+    {
+      "src": "assets/icons/app-icon.png",
+      "sizes": "any",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
