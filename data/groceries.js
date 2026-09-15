@@ -78,7 +78,9 @@ export const groceries = [
   { id: 77, ta: "நூடுல்ஸ்", en: "Noodles", category: "Ready Foods", unit: "pack" },
   { id: 78, ta: "பாஸ்தா", en: "Pasta", category: "Ready Foods", unit: "pack" },
   { id: 79, ta: "பிரெட்", en: "Bread", category: "Bakery", unit: "pack" },
-  { id: 80, ta: "முட்டை", en: "Eggs", category: "Daily Essentials", unit: "nos" }
+  { id: 80, ta: "முட்டை", en: "Eggs", category: "Daily Essentials", unit: "nos" },
+  { id: 81, ta: "கோழி", en: "Chicken", category: "Daily Essentials", unit: "nos" }
+
 ];
 
 export const units = ["kg", "g", "L", "ml", "nos", "pack", "box", "bottle", "bunch"];
